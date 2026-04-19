@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* ── Tipografía base ── */
+:root {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  /* Paleta cálida */
+  --color-cream: #faf6f1;
+  --color-beige: #f0e6d6;
+  --color-gold: #c9a96e;
+  --color-brown: #8b7355;
+  --color-dark: #3d2e1f;
+  --color-warm: #f5ede3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-cream);
+  color: var(--color-dark);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 3px;
+}
+
+/* Clase utilitaria para fuente serif */
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Gradiente animado de fondo (sutil) */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
