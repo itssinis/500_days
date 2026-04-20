@@ -1,7 +1,7 @@
 import AnimatedSection from "../components/AnimatedSection";
 
 /**
- * Letter Section — carta digital con tipografía serif elegante.
+ * Letter Section — 500 días, declaración de amor y firma.
  */
 export default function LetterSection() {
   return (
@@ -29,32 +29,39 @@ export default function LetterSection() {
             style={{ color: "var(--color-dark)" }}
           >
             <p>
-              No sé exactamente cuándo pasó. Tal vez fue la primera vez
-              que me miraste sin decir nada y yo entendí todo. O tal vez fue
-              mucho antes, cuando ni siquiera sabía que te estaba buscando.
+              Han pasado 500 días desde ese sí de ambas el 9 de diciembre de 2024. Hemos pasado
+              muchos más desde la primera vez que nos vimos en persona, y aún más desde que supimos
+              de la existencia de la otra a través de una cámara.
             </p>
             <p>
-              Lo que sí sé es que desde ese día, cada mañana tiene un sentido
-              distinto. No perfecto —nunca lo prometí— pero sí honesto.
-              Real. Nuestro.
+              Han sido 500 días maravillosos, días donde aún sigo sin creerme que somos nosotras.
+              Que quiero que estés en mi presente y en mi futuro. Que pueda verte todos los días de
+              mi vida. Que quiero poder celebrar junto a ti y estar cuando me necesites.
             </p>
             <p>
-              Han pasado 500 días. Y si me preguntaras cuántos más quiero,
-              te diría que me quedo corto con cualquier número.
-            </p>
-            <p className="italic" style={{ color: "var(--color-brown)" }}>
-              Gracias por quedarte. Gracias por elegirme. Gracias por ser ese
-              segundo momento que lo cambió todo.
+              Te amo, con todo mi corazón, con toda mi alma, con todo lo que soy.
             </p>
           </div>
 
           {/* Firma */}
           <div className="mt-10 text-right">
             <p
-              className="font-serif text-lg italic"
+              className="font-serif text-sm italic"
+              style={{ color: "var(--color-brown)" }}
+            >
+              Tu novia, tu mujer, tu futura esposa,
+            </p>
+            <p
+              className="font-serif text-sm italic mt-1"
+              style={{ color: "var(--color-brown)" }}
+            >
+              la dueña de tus sueños (espero), tu socio, tu amiga, tu bro, tu sarampión.
+            </p>
+            <p
+              className="font-serif text-xl italic mt-3"
               style={{ color: "var(--color-gold)" }}
             >
-              Con todo lo que soy,
+              Tu Sara.
             </p>
             <div
               className="mt-4 ml-auto h-px w-20"

@@ -1,14 +1,13 @@
 import AnimatedSection from "../components/AnimatedSection";
 
 /**
- * Time Gap — narrativa sobre el tiempo que pasó entre los dos encuentros.
- * Cada párrafo aparece progresivamente al hacer scroll.
+ * Time Gap — el campamento y los años entre los dos encuentros.
  */
 const paragraphs = [
-  "Pasaron semanas. Meses, incluso. La vida siguió con su rutina, con sus mañanas grises y sus noches de costumbre.",
-  "Pero había algo que no encajaba del todo. Como una pieza que sabes que falta, aunque no recuerdes de qué rompecabezas.",
-  "A veces, en medio de una conversación cualquiera, aparecía esa sensación. Un recuerdo sin contexto. Un eco de algo que todavía no había pasado.",
-  "Y entonces, sin buscarlo —o quizás buscándolo sin saberlo— el destino volvió a cruzar los caminos.",
+  "Me alegra saber que no fue del todo incómodo. Creo que nuestra unión se dio más en el campamento, el segundo día.",
+  "Cuando lloraste en mis piernas. Cuando no supe qué decirte, pero quería estar ahí para ti —en el frío, escuchándote hablar de un man nada que ver.",
+  "Cuando te preguntaba cómo se encontraba tu mente. Cuando te empecé a llamar Little Juana. Cuando todo lo que quería era que te encontraras bien y ojalá no me vomitaras encima en un bus.",
+  "Pasaron los meses y los años desde la última vez que nos vimos, en ese diciembre de 2022. Y de una forma u otra, el destino volvió a cruzar nuestros caminos.",
 ];
 
 export default function TimeGapSection() {

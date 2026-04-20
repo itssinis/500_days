@@ -1,8 +1,7 @@
 import AnimatedSection from "../components/AnimatedSection";
 
 /**
- * Second Moment — el segundo encuentro, tono más intenso,
- * con cambio sutil de fondo cálido.
+ * Second Moment — el segundo clic: 14 de octubre y 9 de diciembre de 2024.
  */
 export default function SecondMomentSection() {
   return (
@@ -19,7 +18,7 @@ export default function SecondMomentSection() {
             className="font-serif text-sm uppercase tracking-[0.3em] mb-6"
             style={{ color: "var(--color-gold)" }}
           >
-            El segundo encuentro
+            El segundo clic
           </p>
         </AnimatedSection>
 
@@ -28,8 +27,7 @@ export default function SecondMomentSection() {
             className="font-serif text-2xl md:text-3xl font-light leading-relaxed"
             style={{ color: "var(--color-dark)" }}
           >
-            Esta vez no fue casualidad. Esta vez, algo dentro de los dos supo
-            que era ahora o nunca.
+            Un 14 de octubre de 2024 fue nuestro segundo bello clic.
           </p>
         </AnimatedSection>
 
@@ -38,13 +36,22 @@ export default function SecondMomentSection() {
             className="mt-8 text-base md:text-lg font-light leading-relaxed"
             style={{ color: "var(--color-brown)" }}
           >
-            El mundo seguía girando igual que siempre, pero nosotros ya no
-            éramos los mismos. Algo había cambiado —quizás todo— y en ese
-            instante lo supimos.
+            Una noche donde no sabíamos si era broma o no, pero comenzó nuestra historia
+            —una conexión que no era de amistad, y que nos llevó a amarnos como lo hacemos hoy en día.
           </p>
         </AnimatedSection>
 
         <AnimatedSection delay={0.6}>
+          <p
+            className="mt-6 text-base md:text-lg font-light leading-relaxed"
+            style={{ color: "var(--color-brown)" }}
+          >
+            Una historia que formalizamos el 9 de diciembre de ese mismo año, a las 3:42 a.m.,
+            cuando me realizaste esa pregunta y yo te la devolví.
+          </p>
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.8}>
           <p
             className="mt-10 font-serif text-xl md:text-2xl italic font-semibold"
             style={{ color: "var(--color-gold)" }}
@@ -53,7 +60,7 @@ export default function SecondMomentSection() {
           </p>
         </AnimatedSection>
 
-        <AnimatedSection delay={0.8}>
+        <AnimatedSection delay={1.0}>
           <div
             className="mx-auto mt-10 h-px w-16"
             style={{ backgroundColor: "var(--color-gold)" }}
