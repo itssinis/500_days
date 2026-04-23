@@ -33,7 +33,7 @@ export default function IntroSection() {
       {/* Espacio para imagen*/} 
         <div className="mt-10 flex justify-center">
           <div
-            className="w-64 h-64 md:w-140 md:h-80 rounded-2xl overflow-hidden border-2"
+            className="w-140 h-80 md:w-140 md:h-80 rounded-2xl overflow-hidden border-2"
             style={{ borderColor: "var(--color-gold)" }}
           >
             <img
