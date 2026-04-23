@@ -5,7 +5,7 @@ import AnimatedSection from "../components/AnimatedSection";
  */
 export default function IntroSection() {
   return (
-    <section className="flex min-h-screen items-center justify-center px-8 md:px-6 py-24">
+    <section className="flex min-h-screen items-center justify-center px-10 md:px-6 py-24">
       <AnimatedSection className="max-w-2xl text-center">
         <p
           className="font-serif text-base font-bold uppercase tracking-[0.35em] mb-6"
@@ -33,7 +33,7 @@ export default function IntroSection() {
       {/* Espacio para imagen*/} 
         <div className="mt-10 flex justify-center">
           <div
-            className="w-100 h-80 md:w-140 md:h-80 rounded-2xl overflow-hidden border-2"
+            className="w-95 h-80 md:w-140 md:h-80 rounded-2xl overflow-hidden border-2"
             style={{ borderColor: "var(--color-gold)" }}
           >
             <img
