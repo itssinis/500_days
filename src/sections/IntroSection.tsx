@@ -5,7 +5,7 @@ import AnimatedSection from "../components/AnimatedSection";
  */
 export default function IntroSection() {
   return (
-    <section className="flex min-h-screen items-center justify-center px-6 py-24">
+    <section className="flex min-h-screen items-center justify-center px-8 md:px-6 py-24">
       <AnimatedSection className="max-w-2xl text-center">
         <p
           className="font-serif text-base font-bold uppercase tracking-[0.35em] mb-6"

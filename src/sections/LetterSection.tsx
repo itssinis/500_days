@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function LetterSection() {
   return (
     <section
-      className="relative flex min-h-screen flex-col items-center justify-center px-8 py-32 overflow-hidden"
+      className="relative flex min-h-screen flex-col items-center justify-center px-10 md:px-8 py-32 overflow-hidden"
       style={{
         background:
           "linear-gradient(160deg, var(--color-warm) 0%, var(--color-cream) 50%, var(--color-beige) 100%)",

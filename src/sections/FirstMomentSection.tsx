@@ -6,7 +6,7 @@ import AnimatedSection from "../components/AnimatedSection";
  */
 export default function FirstMomentSection() {
   return (
-    <section className="flex flex-col items-center justify-start px-6 py-28">
+    <section className="flex flex-col items-center justify-start px-8 md:px-6 py-28">
       <div className="w-full max-w-xl text-center">
 
         {/* ── Etiqueta ──────────────────────────────────────────────────── */}
@@ -38,7 +38,7 @@ export default function FirstMomentSection() {
         <AnimatedSection delay={0.55}>
           <div className="mt-20 mb-20 flex justify-center">
             <div
-              className="w-64 h-72 md:w-72 md:h-100 rounded-2xl overflow-hidden border-2 shadow-md"
+              className="w-72 h-100 md:w-72 md:h-100 rounded-2xl overflow-hidden border-2 shadow-md"
               style={{ borderColor: "var(--color-gold)" }}
             >
               <img
@@ -86,7 +86,7 @@ export default function FirstMomentSection() {
         <AnimatedSection delay={1.0}>
           <div className="mt-12 flex justify-center">
             <div
-              className="w-64 h-72 md:w-72 md:h-80 rounded-2xl overflow-hidden border-2 shadow-md"
+              className="w-72 h-100 md:w-72 md:h-100 rounded-2xl overflow-hidden border-2 shadow-md"
               style={{ borderColor: "var(--color-gold)" }}
             >
               <img
