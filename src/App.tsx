@@ -21,9 +21,15 @@ export default function App() {
       {/* Secciones de la historia */}
       <HeroSection />
       <IntroSection />
+      <div className="h-40" aria-hidden="true" />
       <FirstMomentSection />
       <TimeGapSection />
       <SecondMomentSection />
+      <div
+        className="h-32"
+        style={{ background: "linear-gradient(to bottom, var(--color-beige), var(--color-warm))" }}
+        aria-hidden="true"
+      />
       <LetterSection />
       <ClosingSection />
       <EpilogueSection />

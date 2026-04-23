@@ -26,7 +26,7 @@ export default function EpilogueSection() {
           className="font-serif text-2xl md:text-3xl font-light italic"
           style={{ color: "var(--color-brown)" }}
         >
-          Nos vemos en 2 meses.
+          Nos vemos pronto, mi amor.
         </p>
         <div className="mx-auto mt-6 h-px w-10" style={{ backgroundColor: "var(--color-gold)" }} />
         <p

@@ -5,23 +5,23 @@ import AnimatedSection from "../components/AnimatedSection";
  */
 export default function IntroSection() {
   return (
-    <section className="flex min-h-[60vh] items-center justify-center px-6 py-24">
+    <section className="flex min-h-screen items-center justify-center px-6 py-24">
       <AnimatedSection className="max-w-2xl text-center">
         <p
-          className="font-serif text-sm uppercase tracking-[0.3em] mb-6"
+          className="font-serif text-base font-bold uppercase tracking-[0.35em] mb-6"
           style={{ color: "var(--color-gold)" }}
         >
           Mi amor
         </p>
         <p
-          className="font-serif text-3xl md:text-4xl lg:text-5xl font-light leading-snug italic"
-          style={{ color: "var(--color-brown)" }}
+          className="font-serif text-2xl md:text-3xl font-light leading-relaxed italic text-center"
+          style={{ color: "var(--color-dark)" }}
         >
-          No me pediste que te escribiera algo memorable, pero quiero hacerlo.
+          Me pediste que te escribiera algo memorable, así que aquí está, mi primer recuerdo de la primera vez que te vi.
         </p>
         <p
-          className="mt-6 text-lg md:text-xl font-light leading-relaxed"
-          style={{ color: "var(--color-dark)" }}
+          className="mt-6 text-base md:text-lg font-light leading-relaxed text-justify"
+          style={{ color: "var(--color-brown)" }}
         >
           Esta es la historia de nuestros bellos clics; porque no solo fue uno, fueron dos.
         </p>
@@ -29,6 +29,20 @@ export default function IntroSection() {
           className="mx-auto mt-8 h-px w-16"
           style={{ backgroundColor: "var(--color-gold)" }}
         />
+      <br />
+      {/* Espacio para imagen*/} 
+        <div className="mt-10 flex justify-center">
+          <div
+            className="w-64 h-64 md:w-140 md:h-80 rounded-2xl overflow-hidden border-2"
+            style={{ borderColor: "var(--color-gold)" }}
+          >
+            <img
+              src="/images/intro_section.jpeg"
+              alt="Nuestra historia"
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
       </AnimatedSection>
     </section>
   );
