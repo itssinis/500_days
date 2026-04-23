@@ -7,7 +7,7 @@ import AnimatedSection from "../components/AnimatedSection";
 export default function SecondMomentSection() {
   return (
     <section
-      className="flex flex-col items-center justify-start px-10 md:px-6 py-28"
+      className="flex flex-col items-center justify-start px-8 md:px-6 py-28"
       style={{
         background:
           "linear-gradient(180deg, var(--color-cream) 0%, var(--color-warm) 40%, var(--color-beige) 100%)",

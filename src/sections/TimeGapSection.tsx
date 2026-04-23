@@ -14,7 +14,7 @@ const paragraphs = [
 export default function TimeGapSection() {
   return (
     <section
-      className="flex min-h-screen items-center justify-center px-10 md:px-6 py-32"
+      className="flex min-h-screen items-center justify-center px-8 md:px-6 py-32"
       style={{ backgroundColor: "var(--color-cream)" }}
     >
       <div className="max-w-lg space-y-10 text-center">

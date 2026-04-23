@@ -6,7 +6,7 @@ import AnimatedSection from "../components/AnimatedSection";
  */
 export default function FirstMomentSection() {
   return (
-    <section className="flex flex-col items-center justify-start px-10 md:px-6 py-28">
+    <section className="flex flex-col items-center justify-start px-8 md:px-6 py-28">
       <div className="w-full max-w-xl text-center">
 
         {/* ── Etiqueta ──────────────────────────────────────────────────── */}
