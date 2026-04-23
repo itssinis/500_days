@@ -11,13 +11,13 @@ export default function IntroSection() {
           className="font-serif text-base font-bold uppercase tracking-[0.35em] mb-6"
           style={{ color: "var(--color-gold)" }}
         >
-          Mi amor
+          Querida Juana,
         </p>
         <p
           className="font-serif text-2xl md:text-3xl font-light leading-relaxed italic text-center"
           style={{ color: "var(--color-dark)" }}
         >
-          Me pediste que te escribiera algo memorable, así que aquí está, mi primer recuerdo de la primera vez que te vi.
+          Me dijiste que escribiera algo memorable, así que aquí está, mi primer recuerdo de la primera vez que te vi.
         </p>
         <p
           className="mt-6 text-base md:text-lg font-light leading-relaxed text-justify"
